@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #0af;
+    color: #fff;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu_link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.menu_link:last-child {
+    margin-right: 0;
+}
+.menu_link:hover {
+    background: #5cf;
+}
+
