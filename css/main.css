@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+.mark {
+    color: #0af;
+}
 header {
     height: 10vh;
     display: flex;
@@ -25,5 +28,24 @@ header {
 }
 .menu_link:hover {
     background: #5cf;
+}
+main {
+    height: 88vh;
+}
+.bg_img {
+    height: 100vh;
+    background: url("../img/bg.jpg") center no-repeat;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.info {
+    background: rgba(255,255,255, 0.4);
+    height: 50vh;
+    width: 65vh;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    border-radius: 15px;
 }
 
