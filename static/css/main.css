@@ -3,16 +3,16 @@ body {
 }
 .enter_window {
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 10%;
+    left: 28%;
     z-index: 99;
-    background: #fff;
-    width: 350px;
-    height: 200px;
+    /*background: #fff;*/
+    width: 650px;
+    height: 150px;
     padding: 10px;
-    border-radius: 10px;
-    border: 3px double #0af;
-    color: #0af;
+    /*border-radius: 10px;*/
+    /*border: 3px double #0af;*/
+    /*color: #0af;*/
     text-align: center;
 }
 .enter_window h4 {
