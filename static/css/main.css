@@ -35,6 +35,7 @@ body {
     justify-content: space-between;
     margin-top: 10px;
 }
+
 .enter_window label:first-child {
     margin-top: 0;
 }
