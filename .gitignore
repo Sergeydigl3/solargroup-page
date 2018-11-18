@@ -81,3 +81,9 @@ fabric.properties
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/webstorm
+.idea/inspectionProfiles/
+.idea/markdown-navigator/
+.idea/misc.xml
+.idea/modules.xml
+.idea/solar-group-page.iml
+__pycache__/
