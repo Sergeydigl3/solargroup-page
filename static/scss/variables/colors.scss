@@ -1,0 +1,5 @@
+$main_style_color: #00aaff;
+
+$lighten_percent: 17%;
+
+$main_style_active_color: lighten($main_style_color, $lighten_percent)
