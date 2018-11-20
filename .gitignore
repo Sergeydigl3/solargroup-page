@@ -87,3 +87,4 @@ fabric.properties
 .idea/modules.xml
 .idea/solar-group-page.iml
 __pycache__/
+/.idea/
