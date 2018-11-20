@@ -22,7 +22,7 @@ header {
     height: 50%;
     img {
       margin: 0;
-      height: 5vh;
+      height: 5ch;
     }
   }
   .menu {
@@ -61,13 +61,53 @@ main {
   }
 
   .info {
-    background: rgba(255, 255, 255, 0.4);
-    height: 50vh;
-    width: 65vh;
+    background: rgba($white, 0.6);
+    width: 45vh;
     padding: 10px;
     position: absolute;
-    top: 20%;
-    left: 5%;
+    top: 11%;
+    left: 10%;
     border-radius: 15px;
+  }
+  .news {
+    height: 50vh;
+    width: 65vh;
+    position: absolute;
+    top: 11%;
+    left: 40%;
+
+
+    .wrap {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+
+      .news_item {
+        background: rgba($white, .6);
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom: 10px;
+
+        .item_img {
+
+        }
+        .item_text {
+
+          h4 {
+            color: rgba($black, .7);
+          }
+          hr {
+            border-color: rgba($black, .2);
+          }
+          .author {
+            margin: 0;
+            color: rgba($black, .6);
+            font: italic 12px Arial;
+            text-align: right;
+          }
+        }
+      }
+
+    }
   }
 }
