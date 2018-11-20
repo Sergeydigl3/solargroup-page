@@ -17,13 +17,13 @@ h1 {
   justify-content: space-around;
 
   .left, .right {
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     width: 30%;
     background: rgba($white, .15);
-    border-radius: 100px;
     h2 {
       color: #fff;
       text-align: center;
+      font: bold 24px Arial;
     }
   }
   .line {
