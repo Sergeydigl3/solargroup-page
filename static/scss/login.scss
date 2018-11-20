@@ -1,6 +1,6 @@
 @import "variables/colors.scss";
 
-.enter_window {
+#enter_window {
   position: absolute;
   top: 10%;
   left: 28%;
@@ -115,7 +115,7 @@
     padding: 5px 10px;
     background: none;
     border: 1px solid #a0b3b0;
-    color: #333333;
+    color: #fff;
     border-radius: 0;
     transition: border-color .25s ease, box-shadow .25s ease;
     &:focus {

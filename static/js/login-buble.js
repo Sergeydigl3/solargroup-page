@@ -41,3 +41,10 @@ $('.tab a').on('click', function (e) {
     $(target).fadeIn(600);
 
 });
+
+
+function regForm() {
+    if (document.getElementById('enter_window').style.display!="none") {
+        document.getElementById('enter_window').style.display="none";
+    }
+}
