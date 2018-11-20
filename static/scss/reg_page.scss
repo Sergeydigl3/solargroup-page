@@ -1,0 +1,39 @@
+@import "variables/colors.scss";
+
+body {
+  margin: 0;
+  background: $gradient_color_one;
+  background: -webkit-linear-gradient(left, $gradient_color_one, $gradient_color_two);
+  background: -moz-linear-gradient(left, $gradient_color_one, $gradient_color_two);
+  background: linear-gradient(to right, $gradient_color_one, $gradient_color_two);
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font: bold 48px Arial;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+
+  .left {
+    border: 2px solid #fff;
+    width: 35%;
+    background: rgba($white, .15);
+  }
+  .right {
+    border: 2px solid #fff;
+    width: 35%;
+    background: rgba($white, .15);
+  }
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
+  .line {
+    content: " ";
+    background: #fff;
+    height: 70vh;
+    width: 3px;
+  }
+}

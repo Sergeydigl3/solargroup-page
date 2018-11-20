@@ -2,4 +2,26 @@ $main_style_color: #00aaff;
 
 $lighten_percent: 17%;
 
-$main_style_active_color: lighten($main_style_color, $lighten_percent)
+$main_style_active_color: lighten($main_style_color, $lighten_percent);
+
+$accessory_color_one: #FF5D5B;
+
+
+$body-bg: #fff;
+$form-bg: #fff;
+$white: #fff;
+$black: #000;
+
+$main: $main_style_color;
+
+$gray-light: #a0b3b0;
+$gray: #ddd;
+
+$thin: 300;
+$normal: 400;
+$bold: 600;
+$br: 4px;
+
+
+$gradient_color_two: $main_style_color;
+$gradient_color_one: $accessory_color_one;
