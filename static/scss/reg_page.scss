@@ -16,19 +16,15 @@ h1 {
   display: flex;
   justify-content: space-around;
 
-  .left {
+  .left, .right {
     border: 2px solid #fff;
-    width: 35%;
+    width: 30%;
     background: rgba($white, .15);
-  }
-  .right {
-    border: 2px solid #fff;
-    width: 35%;
-    background: rgba($white, .15);
-  }
-  h2 {
-    color: #fff;
-    text-align: center;
+    border-radius: 100px;
+    h2 {
+      color: #fff;
+      text-align: center;
+    }
   }
   .line {
     content: " ";
