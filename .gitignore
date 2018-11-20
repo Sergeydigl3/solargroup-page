@@ -88,3 +88,4 @@ fabric.properties
 .idea/solar-group-page.iml
 __pycache__/
 /.idea/
+!/static/img/
