@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>SolarGroup!</title>
-    <script type="text/javascript" src="{{ url_for('static', filename='lib/jquery-3.3.1.min.js') }}"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
 </head>
-<body onload="regForm()">
-<div id="enter_window">
+<body>
+<div id="enter_window" style="display: none;">
     <div class="form">
 
         <ul class="tab-group">
@@ -90,7 +88,6 @@
         </div><!-- tab-content -->
 
     </div> <!-- /form -->
-    <script type="text/javascript" src="{{ url_for('static', filename='js/login-buble.js') }}"></script>
     <!--<form action="">-->
         <!--<label>E-mail:<input type="text"></label>-->
         <!--<label>Password:<input type="password"></label>-->
@@ -108,7 +105,7 @@
         <a href="#" class="menu_link">About Us</a>
         <a href="#" class="menu_link">Portfolio</a>
         <a href="#" class="menu_link">Contacts</a>
-        <a href="#" class="menu_link">Sing in\Log in</a>
+        <a href="#" class="menu_link" onclick="regForm()">Sing in\Log in</a>
     </nav>
 </header>
 <main>
@@ -120,5 +117,9 @@
         <p>Благодаря совмещённым обмоткам параметры мотор-колеса значительно улучшаются и повышается энергоэффективность.</p>
     </div>
 </main>
+
+<script type="text/javascript" src="{{ url_for('static', filename='lib/jquery-3.3.1.min.js') }}"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/login-buble.js') }}"></script>
 </body>
 </html>
