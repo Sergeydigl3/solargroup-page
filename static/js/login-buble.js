@@ -47,4 +47,5 @@ function regForm() {
     if (document.getElementById('enter_window').style.display!="none") {
         document.getElementById('enter_window').style.display="none";
     }
+    else{document.getElementById('enter_window').style.display="none";}
 }
