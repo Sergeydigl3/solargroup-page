@@ -16,6 +16,15 @@ header {
   background: $main_style_color;
   color: #fff;
 
+  .logo {
+    display: block;
+    width: 30%;
+    height: 50%;
+    img {
+      margin: 0;
+      height: 5vh;
+    }
+  }
   .menu {
     display: flex;
     justify-content: space-between;
